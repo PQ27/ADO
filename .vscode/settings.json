@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "username": "PeiQi",
+            "password": "27D685382r05",
+            "database": "RAW",
+            "warehouse": "TRANSFORM",
+            "name": "Tutorial_Snowflake",
+            "account": "MMDONEX-AB44943"
+        }
+    ]
+}
