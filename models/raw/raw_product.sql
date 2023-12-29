@@ -1,5 +1,4 @@
 {{ config (materialized='table')}}
 
 Select *
-From 
-RAW.PRICESMART.PRODUCT
+From {{ source('PRICESMART', 'PRODUCT')}}
